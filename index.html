@@ -5,10 +5,23 @@
   <title>
     adsoft Personal Page
   </title>
+  <!--
+  <style>
+    p {
+      color: red;
+    }
+    a {
+      color: blue;
+    }
+
+  </style>
+  -->
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
- <h1> This is my web page </h1>
+ <h1>This is my web page </h1>
  <h2> How exciting </h2>
 
  <p>Yes, that really <strong><em>is</em></strong> exciting. <br>
@@ -58,6 +71,26 @@
      <td>0.5 ha</td>
    </tr>
  </table>
+
+
+ <form>
+   <p>Name: </p>
+   <p> <input type="text" name="name" value="Your name"> </p>
+
+   <p>Species: </p>
+   <p> <input  name="species"> </p>
+
+   <p>Comments: </p>
+   <p> <textarea  name="comments" rows="5" cols="20" maxlength="50">Your comments</textarea> </p>
+
+   <p>Are you: </p>
+   <p><input type="radio" name="areyou" value="male"> Male </p>
+   <p><input type="radio" name="areyou" value="female">Female </p>
+   <p><input type="radio" name="areyou" value="hermaphrodite">An hermaphrodite </p>
+   <p><input type="radio" name="areyou" value="asexual"> Asexual </p>
+
+   <p><input type="submit"> </p>
+ </form>
 
  <h2>Where to find this tutorial </h2>
  <p> <a href="http://www.htmldog.com">
